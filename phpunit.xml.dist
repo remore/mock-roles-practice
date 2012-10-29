@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="Bootstrap.php"
+    processIsolation="false"
+    verbose="true"
+    strict="false"
+    colors="true">
+
+    <listeners>
+        <!-- mockery統合のため必要 -->
+        <listener class="\Mockery\Adapter\Phpunit\TestListener" file="Vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php" />
+    </listeners>
+</phpunit>

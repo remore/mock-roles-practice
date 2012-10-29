@@ -1,0 +1,10 @@
+{
+    "config": {
+        "vendor-dir": "Vendor",
+        "bin-dir": "."
+    },
+    "require": {
+        "EHER/PHPUnit":    ">=1.6",
+        "mockery/mockery": ">=0.7.2"
+    }
+}
